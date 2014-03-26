@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mycompany.webInspect" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="App">
+        <param name="android-package" value="org.apache.cordova.App" />
+    </feature>
+    <feature name="InstallPlugin">
+        <param name="android-package" value="com.install.install.InstallPlugin" />
+    </feature>
+    <feature name="JPush">
+        <param name="android-package" value="com.jpush.jpush.JPush" />
+    </feature>
+    <feature name="PhonePlugin">
+        <param name="android-package" value="com.phone.phone.PhonePlugin" />
+    </feature>
+    <feature name="ToastPlugin">
+        <param name="android-package" value="com.toast.toast.ToastPlugin" />
+    </feature>
+    <feature name="VpnPlugin">
+        <param name="android-package" value="com.vpn.vpn.VpnPlugin" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <name>webInspect</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
